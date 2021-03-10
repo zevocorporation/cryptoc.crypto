@@ -31,7 +31,7 @@ class Login extends React.Component {
           <center>
             <h2>Login</h2>
             <p>We are currently offering login with google only</p>
-            <GoogleLogin clientId="625349983682-306el13aqdstmb6j8or95a8qse6tgedu.apps.googleusercontent.com"
+            <GoogleLogin clientId={process.env.SECRET}
             buttonText="Login With Google"
             onSuccess={this.responseGoogle}
             onFailure={this.responseGoogle}
@@ -53,6 +53,7 @@ class Login extends React.Component {
   }
 
   componentDidMount(){
+    console.log(process.env.SECRET)
     fetch("https://month8test.herokuapp.com/")
     .then((res) => {
       console.log("app is working")
