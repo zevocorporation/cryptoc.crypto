@@ -1,0 +1,10 @@
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: auto
+}
