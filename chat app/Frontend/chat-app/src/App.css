@@ -1,0 +1,106 @@
+.not__logged__container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: 0 50px 50px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+   align-self: center;
+}
+
+.not__logged__container input {
+    width: 70%;
+    height: 25px;
+}
+.not__logged__container button {
+    width: 70%;
+    height: 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(51, 119, 247);
+    border: 1px solid rgb(51, 119, 247);
+    cursor: pointer;
+}
+
+.err, .merr {
+    color: red;
+    font-weight: 700;
+}
+
+
+.chat__container{
+    background-color: aquamarine;
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chat__box {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.title1{
+    align-self: center;
+}
+
+.message__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message__box input {
+    width: 70%;
+    height: 25px;
+}
+
+
+.message__box button {
+    width: 20%;
+    height: 25px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(51, 119, 247);
+    border: 1px solid rgb(51, 119, 247);
+    cursor: pointer;
+}
+
+.message__sent{
+    margin: 15px 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message__received{
+    margin: 15px 15px;
+    display: flex;
+
+}
+
+.message__sent p {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff7bd;
+    padding: 5px;
+    margin: 0;
+}
+
+.message__received p{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+}
