@@ -1,0 +1,98 @@
+.think__innovate__build {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.think,
+.innovate,
+.build {
+  height: 16px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+  margin: 10px;
+}
+
+.main__text {
+  text-align: center;
+  font-family: Larsseit-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+  margin: 30px 0;
+}
+
+.main__subtext__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main__subtext {
+  max-width: 41%;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #635f71;
+}
+
+.main__dot__vector {
+  position: absolute;
+  left: 0;
+  top: 260px;
+}
+
+.talk__button {
+  width: 155px;
+  height: 40px;
+  background: #4078ff;
+  border-radius: 5px;font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 25px;
+}
+
+.main__button__container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.services__button {
+    width: 155px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #0E2576;
+    border-radius: 5px;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #635F71;
+    margin: 25px;
+}
+
+.main__hero__illustration{
+    width: 100%;
+    height: auto;
+}

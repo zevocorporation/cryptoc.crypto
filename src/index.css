@@ -27,8 +27,16 @@
 }
 
 @font-face {
-  font-family: "Larsseit-Regular";
+  font-family: "Larsseit";
   src: local("Larsseit-Regular"),
     url("./fonts/Larsseit-Regular.ttf") format("truetype");
   font-weight: normal;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Larsseit;
+    overflow-x: hidden;
 }

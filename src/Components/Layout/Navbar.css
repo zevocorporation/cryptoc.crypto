@@ -1,0 +1,54 @@
+.nav__bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+
+.brand__logo__img {
+  height: 32px;
+  width: auto;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: #635f71;
+  margin: 20px;
+  top: 0;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  /* border-bottom: 3px solid #4078ff; */
+}
+
+.careers__link {
+  margin-right: 50px;
+}
+
+.nav__button {
+  width: 159;
+  height: 40px;
+}
+
+.nav__select {
+  border: none;
+  color: #635f71;
+}
+
+.nav__line {
+  position: absolute;
+  height: 0px;
+  left: 50px;
+  top: 70px;
+  right: 50px;
+  border: 0.5px solid rgba(58, 216, 197, 0.5);
+}
+
+.top__blob {
+  position: absolute;
+  width: 583.11px;
+  height: 643.3px;
+  left: 66.9%;
+  top: -350px;
+  z-index: -1;
+}
