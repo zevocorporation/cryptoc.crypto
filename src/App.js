@@ -1,6 +1,7 @@
 import { BrowserRouter, Route} from 'react-router-dom'
 import Home from './Components/Home/home'
 import Navbar from './Components/Layout/Navbar'
+import Footer from './Components/Layout/Footer'
 
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Route exact path='/' component={Home} />
+        <Footer />
       </BrowserRouter>
     </div>
   );
