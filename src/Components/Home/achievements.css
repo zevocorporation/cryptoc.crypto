@@ -1,0 +1,91 @@
+.main__achievents {
+  position: relative;
+  padding: 50px;
+}
+
+.achievements__button {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #635f71;
+  border: 2px solid #0e2576;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.acheive__din {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+}
+
+.acheive__main {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+}
+
+.acheive__p {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #635f71;
+}
+
+.achieve__data__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.acheve__text {
+  padding-right: 50px;
+}
+
+.acheive__data {
+  width: 195px;
+  height: 138.33px;
+  background: #e8f2fc;
+  border-radius: 5px;
+  margin: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.achieve__numbers {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #0e2576;
+}
+
+.achieve__plus{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color:#4078ff;
+}

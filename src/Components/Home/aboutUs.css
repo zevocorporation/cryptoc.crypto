@@ -1,0 +1,122 @@
+.aboutus__container {
+  background: #0e2576;
+  padding: 86px 66px;
+  overflow: hidden;
+  position: relative;
+  z-index: -8;
+  border-top: 10px solid #E8F2FC;
+  border-bottom: 10px solid #E8F2FC;
+}
+
+.video__div {
+  background-color: black;
+  width: 100%;
+  height: 420px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus__div {
+  padding: 0 75px;
+}
+
+.aboutus__p {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.aboutus__head {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.aboutus__det {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about__btn1 {
+  width: 143px;
+  height: 40px;
+  background: #4078ff;
+  border-radius: 5px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.about__btn2 {
+  height: 40px;
+  background: #0e2576;
+  border-radius: 5px;
+  margin-left: 36px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+
+}
+
+.aboutus__blob1{
+  position: absolute;
+  bottom: -300px;
+  left: -70px;
+  z-index: -1;
+  opacity: 0.2;
+
+}
+.aboutus__blob2{
+  position: absolute;
+  right: -100px;
+  bottom: -150px;
+  opacity: 0.2;
+}
+
+
+.aboutus__dot__vector1{
+  position: absolute;
+  left: 490px;
+  bottom: 50px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.aboutus__dot__vector2{
+  position: absolute;
+  right: 0;
+  top: -50px;
+  opacity: 0.2;
+  z-index: -1;
+}
+

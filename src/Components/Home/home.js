@@ -1,4 +1,8 @@
 import React from 'react'
+import AboutUs from './aboutUs'
+import Achievements from './achievements'
+import ProjectProcess from './projectProcess'
+
 import './home.css'
 
 export default function home() {
@@ -26,6 +30,9 @@ export default function home() {
                 </div>
                 <img className="main__hero__illustration" src="Illustrations\Hero Illustration.svg" alt="hero" />
             </div>
+            <AboutUs/>
+            <Achievements/>
+            <ProjectProcess/>
         </div>
     )
 }

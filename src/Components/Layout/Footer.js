@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <footer className="Footer">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-4 footer__1">
                         <img className="footer__logo" src="/Logo_White.png" alt="brand-logo" />
