@@ -1,9 +1,7 @@
 import React from 'react'
-import './projectProcess.css'
+import './process.css'
 
-
-
-function projectProcess() {
+function process() {
     return (
         <div>
             <div className="container-fluid process__container">
@@ -74,4 +72,4 @@ function projectProcess() {
     )
 }
 
-export default projectProcess
+export default process

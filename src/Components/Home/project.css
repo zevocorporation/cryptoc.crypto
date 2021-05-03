@@ -1,0 +1,104 @@
+.projects__conatiner {
+  background-color: #0e2576;
+  padding: 50px;
+}
+
+.container__head__P {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.project__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project__header__text {
+  max-width: 539px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.project__btn1 {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  border: 2px solid #ffffff;
+  height: 40px;
+}
+
+.project__btn2 {
+  height: 40px;
+  background: #4078ff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.project__card_container {
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.project__card__image {
+  max-width: 500px;
+  max-height: 300px;
+  filter: drop-shadow(0px 3px 18px rgba(89, 126, 255, 0.1));
+  border-radius: 10px;
+}
+
+.project__card__text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+}
+
+.project__card__head {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+}
+
+.project__card__p {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #635f71;
+}
+
+.project__card__det{
+    display: flex;
+    align-items: center;
+}

@@ -1,7 +1,9 @@
 import React from 'react'
 import AboutUs from './aboutUs'
 import Achievements from './achievements'
-import ProjectProcess from './projectProcess'
+import Project from './project'
+import Process from './process'
+import SmartReach from './smartReach'
 
 import './home.css'
 
@@ -32,7 +34,9 @@ export default function home() {
             </div>
             <AboutUs/>
             <Achievements/>
-            <ProjectProcess/>
+            <Process />
+            <Project/>
+            <SmartReach />
         </div>
     )
 }
