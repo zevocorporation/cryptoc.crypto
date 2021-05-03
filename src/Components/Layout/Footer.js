@@ -10,7 +10,7 @@ function Footer() {
                     <div className="col-lg-4 footer__1">
                         <img className="footer__logo" src="/Logo_White.png" alt="brand-logo" />
                         <p className="footer__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id integer ut faucibus sem risus. Praesent sagittis, ut diam diam odio faucibus lorem.</p>
-                        <input className="newsletter__input" placeholder="Enter your email" />
+                        <input className="newsletter__input" type="email" placeholder="Enter your email" />
                         <button className="btn newsletter__button">SUBSCRIBE TO NEWSLETTER</button>
                     </div>
                     <div className="col-lg-5 footer__2">
@@ -74,7 +74,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            {/* <img src="" className="footer__blob" alt="blob" /> */}
+            <img src="/illustrations/Blob.svg" className="footer__blob" alt="blob" />
         </footer>
     )
 }
