@@ -4,6 +4,10 @@ import Achievements from './achievements'
 import Project from './project'
 import Process from './process'
 import SmartReach from './smartReach'
+import Blogs from './blogs'
+import ContactUs from './contactUs'
+import Services from './services'
+import Testimonals from './testimonals'
 
 import './home.css'
 
@@ -34,9 +38,13 @@ export default function home() {
             </div>
             <AboutUs/>
             <Achievements/>
+            <Services />
             <Process />
             <Project/>
             <SmartReach />
+            <Blogs />
+            <Testimonals/>
+            <ContactUs/>
         </div>
     )
 }

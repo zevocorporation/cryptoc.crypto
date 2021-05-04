@@ -67,6 +67,8 @@ function process() {
                         </div>
                     </div>
                 </div>
+                <img className="process__dot__vector1" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
+                <img src="/illustrations/Blob.svg" className="process__blob2" alt="blob" />
             </div>
         </div>
     )

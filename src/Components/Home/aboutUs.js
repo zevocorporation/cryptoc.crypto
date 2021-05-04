@@ -29,7 +29,6 @@ function aboutUs() {
                     </div>
                 </div>
             </div>
-            <img src="/illustrations/Blob.svg" className="aboutus__blob1" alt="blob" />
             <img src="/illustrations/Blob.svg" className="aboutus__blob2" alt="blob" />
             <img className="aboutus__dot__vector1" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
             <img className="aboutus__dot__vector2" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>

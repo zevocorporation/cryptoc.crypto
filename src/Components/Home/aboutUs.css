@@ -3,7 +3,7 @@
   padding: 86px 66px;
   overflow: hidden;
   position: relative;
-  z-index: -8;
+  z-index: 1;
   border-top: 10px solid #E8F2FC;
   border-bottom: 10px solid #E8F2FC;
 }
@@ -88,14 +88,6 @@
 
 }
 
-.aboutus__blob1{
-  position: absolute;
-  bottom: -300px;
-  left: -70px;
-  z-index: -1;
-  opacity: 0.2;
-
-}
 .aboutus__blob2{
   position: absolute;
   right: -100px;

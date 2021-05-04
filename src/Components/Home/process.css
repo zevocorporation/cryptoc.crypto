@@ -1,3 +1,7 @@
+.process__container{
+  position: relative;
+}
+
 .process__title {
     text-align: center;
     font-family: Larsseit;
@@ -51,6 +55,7 @@
     border-radius: 10px;
     padding: 25px;
     margin: 0 10px 30px 10px;
+    z-index: 1;
   }
   
   .process__card__det {
@@ -77,3 +82,15 @@
     letter-spacing: 0.03em;
     color: #130d2a;
   }
+
+.process__dot__vector1{
+  position: absolute;
+  top: 50px;
+}
+
+.process__blob2{
+  position: absolute;
+  opacity: 0.1;
+  left: -50px;
+  bottom: -250px;
+}

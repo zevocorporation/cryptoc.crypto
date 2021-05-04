@@ -1,3 +1,126 @@
 .smart__reach__container {
-    padding: 100px 50px 0 50px;
+  padding: 100px 50px 0 50px;
+}
+
+.smart__reach {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+}
+
+.smart__reach__heading {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+  max-width: 469px;
+}
+
+.smart__reach__heading__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.smart__reach__youtube,
+.smart__reach__arrow {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #635f71;
+  border: 2px solid #0e2576;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.smart__video__div {
+  background-color: black;
+  width: 100%;
+  height: 420px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smart__reach__head {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+}
+
+.smart__reach__det {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #635f71;
+}
+
+.smart__reach2 {
+  margin-top: 50px;
+}
+
+.smart__reach__similar__videos {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #4078ff;
+}
+
+.smart__reach__video__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smart__reach__vids {
+  padding: 10px;
+}
+
+.smart__reach__svideo {
+  width: 180px;
+  height: 126px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.smart__reach__svideo__play {
+  height: 43px;
+  width: 43px;
+}
+
+.smart__reach__svideo_Det {
+  max-width: 180px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
 }

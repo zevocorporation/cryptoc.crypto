@@ -85,6 +85,9 @@ function projectProcess() {
                         </div>
                     </div>
                 </div>
+                <img src="/illustrations/Blob.svg" className="projects__blob2" alt="blob" />
+                <img className="projects__dot__vector1" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
+                <img className="projects__dot__vector2" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
             </div>
         </div>
     )

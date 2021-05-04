@@ -89,3 +89,16 @@
     letter-spacing: 0.03em;
     color:#4078ff;
 }
+
+.achievemets__dot__vector2{
+  position: absolute;
+  left: 0
+}
+
+.achievemets__blob1{
+  position: absolute;
+  top: -130px;
+  opacity: 0.5;
+  left: -65px;
+  z-index: -1;
+}

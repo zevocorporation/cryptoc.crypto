@@ -40,6 +40,8 @@ function achievements() {
                     </div>
                 </div>
             </div>
+            <img className="achievemets__dot__vector2" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
+            <img src="/illustrations/Blob.svg" className="achievemets__blob1" alt="blob" />
         </div>
     )
 }

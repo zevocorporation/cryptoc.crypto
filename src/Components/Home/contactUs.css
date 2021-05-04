@@ -1,0 +1,151 @@
+.contact__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.contact__heading {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+}
+
+.conatact__h {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+}
+
+.contact__det {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #635f71;
+
+  max-width: 560px;
+}
+
+.constct_details {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0e2576;
+  margin: 10px;
+}
+
+.contact__img {
+  height: 42px;
+  width: 42px;
+}
+
+.form__card {
+  height: auto;
+  width: 788px;
+  background: #ffffff;
+  box-shadow: 0px 3px 18px rgba(89, 126, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.contact__p {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0e2576;
+}
+
+.contact__input {
+  background: #fafafa;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.conarct__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 3px 18px rgba(89, 126, 255, 0.1);
+  border-radius: 10px;
+  padding: 23px;
+  margin-bottom: 30px;
+}
+
+.contact__img {
+  height: 60px;
+  width: 60px;
+}
+
+.contact__card__text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+  max-width: 115px;
+  padding: 10px;
+}
+
+.contact__innerdiv {
+  display: flex;
+  align-items: center;
+}
+
+.contact__text__area {
+  width: 728px;
+  height: 126px;
+
+  background: #fafafa;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+}
+
+.contact__down__color {
+  height: 275px;
+  width: 100%;
+  background: #4078ff;
+  position: absolute;
+  bottom: -60px;
+  z-index: -1;
+}
+
+.contRact__button{
+    height: 40px;
+    background: #4078ff;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 176px;
+    margin-top: 20px;
+    border: 2px solid #4078ff;
+}

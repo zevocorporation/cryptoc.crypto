@@ -1,0 +1,86 @@
+.services__container {
+  padding: 50px;
+  margin-top: 50px 0;
+  position: relative;
+}
+
+.services__head {
+  margin: auto;
+}
+
+.service__name {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0e2576;
+}
+
+.services__head {
+  max-width: 539px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+}
+
+.service__slide__card {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 18px rgba(89, 126, 255, 0.1);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.service__slide__img {
+  height: 120px;
+  width: 120px;
+  margin: auto;
+}
+
+.service__slide__head {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  color: #130d2a;
+  text-align: center;
+}
+
+.service__slide__text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #635f71;
+}
+
+.slider__services{
+    margin-top: 50px;
+}
+
+Slider > button {
+    height: 100%;
+    width: auto;
+    z-index: 1;
+    background-color: brown;
+}
+
+.services__blob2{
+  position: absolute;
+  right: -100px;
+  bottom: -150px;
+  opacity: 0.2;
+  z-index: -1;
+}
