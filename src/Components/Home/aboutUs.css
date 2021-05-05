@@ -8,6 +8,7 @@
 }
 
 .video__div {
+  padding: 20px 50px;
   background-color: black;
   width: 100%;
   height: 420px;
@@ -20,7 +21,7 @@
 }
 
 .aboutus__div {
-  padding: 0 75px;
+  padding: 20px 0;
 }
 
 .aboutus__p {

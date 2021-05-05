@@ -56,6 +56,7 @@
 
 .acheve__text {
   padding-right: 50px;
+  margin-bottom: 20px;
 }
 
 .acheive__data {
@@ -63,7 +64,7 @@
   height: 138.33px;
   background: #e8f2fc;
   border-radius: 5px;
-  margin: 0 20px 20px 20px;
+  margin: 0 10px 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

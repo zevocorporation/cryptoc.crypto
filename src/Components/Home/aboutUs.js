@@ -19,7 +19,7 @@ function aboutUs() {
                                 <div className="aboutus__div">
                                     <p className="aboutus__p">ABOUT US</p>
                                     <p className="aboutus__head">We are a team of talented and passionate developers.
-                            </p>
+                                    </p>
                                     <p className="aboutus__det">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo porttitor sit donec enim blandit. Risus enim at amet risus, fringilla massa, consectetur nec ultricies egestas nibh convallis.</p>
                                     <p className="aboutus__det">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo porttitor sit donec enim blandit.</p>
                                     <div>
