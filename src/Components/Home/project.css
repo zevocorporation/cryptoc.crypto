@@ -47,16 +47,16 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
   border: 2px solid #ffffff;
   height: 40px;
+  margin: 5px;
 }
 
 .project__btn2 {
-  height: 40px;
   background: #4078ff;
   border-radius: 5px;
   color: #ffffff;
+  margin: 5px;
 }
 
 .project__card_container {

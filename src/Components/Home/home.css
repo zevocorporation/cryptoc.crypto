@@ -57,11 +57,11 @@
   left: 0;
   top: 260px;
   opacity: 0.5;
+  z-index: -1;
 }
 
 .talk__button {
-  width: 155px;
-  height: 40px;
+  width: auto;
   background: #4078ff;
   border-radius: 5px;font-family: Larsseit;
   font-style: normal;
@@ -81,8 +81,7 @@
 }
 
 .services__button {
-    width: 155px;
-    height: 40px;
+    width: auto;
     background: #FFFFFF;
     border: 2px solid #0E2576;
     border-radius: 5px;

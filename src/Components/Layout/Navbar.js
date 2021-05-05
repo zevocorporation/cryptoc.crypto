@@ -39,12 +39,12 @@ const Navbar = (props) => {
               <li className="nav-item"><a className="nav-link active nav__links" aria-current="page" href="#smartreach">Smart Reach</a></li>
               <li className="nav-item"><a className="nav-link active nav__links" aria-current="page" href="#blogs">Blogs</a></li>
               <li className="nav-item"><a className="nav-link active nav__links" aria-current="page" href="#careers">Careers</a></li>
-              <li className="nav-item"><button className="btn btn-primary nav__button" aria-current="page" href="#careers">Get in touch</button></li>
+              <li className="nav-item"><a className="btn btn-primary nav__button" aria-current="page" href="#contact">Get in touch</a></li>
             </ul>
           </div>
         </div>
+        <img className="top__blob" src="/illustrations/Blob.svg" alt="blob"/>
       </nav>
-      <img className="top__blob" src="/illustrations/Blob.svg" alt="blob"/>
       <hr className="nav__line"/>
     </>
   );

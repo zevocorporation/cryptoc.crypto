@@ -86,6 +86,7 @@
 .process__dot__vector1{
   position: absolute;
   top: 50px;
+  z-index: -1;
 }
 
 .process__blob2{

@@ -1,17 +1,10 @@
-.top__blob {
-  position: absolute;
-  width: 583.11px;
-  height: 643.3px;
-  left: 66.9%;
-  top: -350px;
-  z-index: -1;
-  opacity: 0.2;
 
-}
 
 .navbar{
+  width: 100%;
   padding: 0 30px;
-  min-height: 80px;;
+  min-height: 80px;
+  overflow: hidden;
 }
 
 .brand__logo__img {
@@ -40,4 +33,14 @@
 .nav__button {
   width: 159;
   height: 40px;
+}
+
+.top__blob {
+  position: absolute;
+  width: 583.11px;
+  height: 643.3px;
+  left: 66.9%;
+  top: -350px;
+  z-index: -1;
+  opacity: 0.2;
 }

@@ -102,6 +102,7 @@
 .contact__img {
   height: 60px;
   width: 60px;
+  margin: 0 10px;
 }
 
 .contact__card__text {
@@ -154,5 +155,5 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-self: center;
+  justify-content: center;
 }
