@@ -20,7 +20,7 @@ function projectProcess() {
                     </div>
                 </div>
                 <div>
-                    <div class="project__card_container">
+                    <div className="project__card_container">
                         <div className="row">
                             <div className="col-lg-5">
                                 <img className="project__card__image" src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png" alt='/' />
@@ -36,7 +36,7 @@ function projectProcess() {
                             </div>
                         </div>
                     </div>
-                    <div class="project__card_container">
+                    <div className="project__card_container">
                         <div className="row">
                             <div className="col-lg-5">
                                 <img className="project__card__image" src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png" alt='/' />
@@ -52,7 +52,7 @@ function projectProcess() {
                             </div>
                         </div>
                     </div>
-                    <div class="project__card_container">
+                    <div className="project__card_container">
                         <div className="row">
                             <div className="col-lg-5">
                                 <img className="project__card__image" src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png" alt='/' />
@@ -68,7 +68,7 @@ function projectProcess() {
                             </div>
                         </div>
                     </div>
-                    <div class="project__card_container">
+                    <div className="project__card_container">
                         <div className="row">
                             <div className="col-lg-5">
                                 <img className="project__card__image" src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png" alt='/' />

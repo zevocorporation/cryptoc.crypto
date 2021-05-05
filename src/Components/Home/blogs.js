@@ -11,7 +11,7 @@ function blogs() {
             <div className="row">
                 <div className="col-md-4">
                     <div className="card blog__card">
-                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top img-fluid" alt="..." />
+                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" className="card-img-top img-fluid" alt="..." />
                         <div className="card-body">
                             <div className="blog__card__profile">
                                 <img className="blog__card__pimage" src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="img" />
@@ -24,7 +24,7 @@ function blogs() {
                 </div>
                 <div className="col-md-4">
                 <div className="card blog__card">
-                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top img-fluid" alt="..." />
+                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" className="card-img-top img-fluid" alt="..." />
                         <div className="card-body">
                             <div className="blog__card__profile">
                                 <img className="blog__card__pimage" src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="img" />
@@ -37,7 +37,7 @@ function blogs() {
                 </div>
                 <div className="col-md-4">
                 <div className="card blog__card">
-                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top img-fluid" alt="..." />
+                        <img src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" className="card-img-top img-fluid" alt="..." />
                         <div className="card-body">
                             <div className="blog__card__profile">
                                 <img className="blog__card__pimage" src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="img" />

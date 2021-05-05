@@ -15,41 +15,45 @@ function Footer() {
                     </div>
                     <div className="col-lg-5 footer__2">
                         <table className="footer__table">
-                            <tr>
-                                <th>EXPLORE</th>
-                                <th>SUPPORT</th>
-                                <th>LEGAL</th>
-                            </tr>
-                            <tr>
-                                <td><Link>Home</Link></td>
-                                <td><Link>Help</Link></td>
-                                <td><Link>Privacy Policy</Link></td>
-                            </tr>
-                            <tr>
-                                <td><Link>About</Link></td>
-                                <td><Link>Support</Link></td>
-                                <td><Link>Copyrights</Link></td>
-                            </tr>
-                            <tr>
-                                <td><Link>Services</Link></td>
-                                <td><Link>FAQs</Link></td>
-                                <td><Link>Lisences</Link></td>
-                            </tr>
-                            <tr>
-                                <td><Link>Case Studies</Link></td>
-                                <td><Link>Smart reach</Link></td>
-                                <td><Link>Cookies Policy</Link></td>
-                            </tr>
-                            <tr>
-                                <td><Link>Blogs</Link></td>
-                                <td></td>
-                                <td><Link>Cookies Settings</Link></td>
-                            </tr>
-                            <tr>
-                                <td><Link>Cryptosi Gallery</Link></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>EXPLORE</th>
+                                    <th>SUPPORT</th>
+                                    <th>LEGAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><Link to="/">Home</Link></td>
+                                    <td><Link to="/">Help</Link></td>
+                                    <td><Link to="/">Privacy Policy</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link to="/">About</Link></td>
+                                    <td><Link to="/">Support</Link></td>
+                                    <td><Link to="/">Copyrights</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link to="/">Services</Link></td>
+                                    <td><Link to="/">FAQs</Link></td>
+                                    <td><Link to="/">Lisences</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link to="/">Case Studies</Link></td>
+                                    <td><Link to="/">Smart reach</Link></td>
+                                    <td><Link to="/">Cookies Policy</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link to="/">Blogs</Link></td>
+                                    <td></td>
+                                    <td><Link to="/">Cookies Settings</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link to="/">Cryptosi Gallery</Link></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className="col-lg-3 footer__3">

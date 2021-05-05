@@ -75,7 +75,7 @@ function contactUs() {
                         </div>
                     </div>
                     <p className="contact__p">Message</p>
-                    <textarea className="contact__text__area">Enter your message</textarea>
+                    <textarea className="contact__text__area" defaultValue="Enter your message"></textarea>
                     <div className="row">
                     <button className="contRact__button">REQUEST QUOTE</button>
                     </div>

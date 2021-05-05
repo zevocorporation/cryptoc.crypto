@@ -42,7 +42,7 @@ function testimonals() {
     }
 
     return (
-        <div class="testimonial__container">
+        <div className="testimonial__container">
             <p className="testimonial__text">TESTIMONIALS</p>
             <p className="testimonial__header">Don’t take our word for it.
                 See what our clients say.</p>
@@ -62,7 +62,7 @@ function testimonals() {
                                 </div>
                             </div>
                             <div className="bottom__testimonal__right">
-                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" class="bottom__testimonal__right__image" alt="right" />
+                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" className="bottom__testimonal__right__image" alt="right" />
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function testimonals() {
                                 </div>
                             </div>
                             <div className="bottom__testimonal__right">
-                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" class="bottom__testimonal__right__image" alt="right" />
+                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" className="bottom__testimonal__right__image" alt="right" />
                             </div>
                         </div>
                     </div><div className="testimonial__card">
@@ -95,7 +95,7 @@ function testimonals() {
                                 </div>
                             </div>
                             <div className="bottom__testimonal__right">
-                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" class="bottom__testimonal__right__image" alt="right" />
+                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" className="bottom__testimonal__right__image" alt="right" />
                             </div>
                         </div>
                     </div><div className="testimonial__card">
@@ -111,7 +111,7 @@ function testimonals() {
                                 </div>
                             </div>
                             <div className="bottom__testimonal__right">
-                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" class="bottom__testimonal__right__image" alt="right" />
+                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" className="bottom__testimonal__right__image" alt="right" />
                             </div>
                         </div>
                     </div><div className="testimonial__card">
@@ -127,7 +127,7 @@ function testimonals() {
                                 </div>
                             </div>
                             <div className="bottom__testimonal__right">
-                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" class="bottom__testimonal__right__image" alt="right" />
+                                <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png" className="bottom__testimonal__right__image" alt="right" />
                             </div>
                         </div>
                     </div>

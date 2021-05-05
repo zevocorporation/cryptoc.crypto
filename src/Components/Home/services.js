@@ -48,7 +48,7 @@ function services() {
                 <p className="service__name">OUR SERVICES</p>
                 <p className="services__head">We are development experts on all technologies & platforms.</p>
             </div>
-            <div class="slider__services">
+            <div className="slider__services">
                 <Slider {...settings}>
                     <div className="service__slide__card">
                         <img className="service__slide__img" src="/Icons/Front End.svg" alt="dev" />

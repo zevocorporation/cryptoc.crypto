@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             <img
               className="brand__logo__img"
               src="/Logo_Dark.png"
