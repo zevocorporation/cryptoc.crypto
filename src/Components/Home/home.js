@@ -32,7 +32,7 @@ export default function home() {
                 <img className="main__dot__vector" src="\Illustrations\Dot Vector.svg" alt="dot-vector"/>
                 <div className="main__button__container">
                     <button className="btn talk__button">TALK WITH US</button>
-                    <button className="btn services__button">OUR SERVICES</button>
+                    <a href="#services" className="btn services__button">OUR SERVICES</a>
                 </div>
                 <img className="main__hero__illustration" src="Illustrations\Hero Illustration.svg" alt="hero" />
             </div>

@@ -24,7 +24,7 @@ function aboutUs() {
                                     <p className="aboutus__det">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo porttitor sit donec enim blandit.</p>
                                     <div>
                                         <button onClick={() => console.log('button click')} className="btn about__btn1">KNOW MORE</button>
-                                        <button className="btn about__btn2">OUR SERVICES</button>
+                                        <a href="#services" className="btn about__btn2">OUR SERVICES</a>
                                     </div>
                                 </div>
                             </div>

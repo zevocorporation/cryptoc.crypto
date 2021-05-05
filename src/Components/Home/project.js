@@ -16,7 +16,7 @@ function projectProcess() {
                     </div>
                     <div className="project__header__button">
                         <button className="btn project__btn1">KNOW MORE ABOUT US</button>
-                        <button className="btn project__btn2">TALK WITH US</button>
+                        <a href="#contact" className="btn project__btn2">TALK WITH US</a>
                     </div>
                 </div>
                 <div>

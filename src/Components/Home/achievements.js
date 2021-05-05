@@ -10,7 +10,7 @@ function achievements() {
                         <p className="acheive__din">OUR ACHIEVEMENT IN NUMBERS</p>
                         <p className="acheive__main">Experience you can count on</p>
                         <p className="acheive__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo porttitor sit donec enim blandit. Risus enim at amet risus, fringilla massa, consectetur nec ultricies egestas nibh convallis.</p>
-                        <button className="achievements__button">GET A QUOTE FROM US</button>
+                        <a href="#contact" className="btn achievements__button">GET A QUOTE FROM US</a>
                     </div>
                     <div className="col-lg-7 achieve__data__container">
                         <div className="acheive__data">

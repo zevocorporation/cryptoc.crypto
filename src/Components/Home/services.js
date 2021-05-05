@@ -43,7 +43,7 @@ function services() {
           ]
     }
     return (
-        <div className="services__container">
+        <div className="services__container" id="services">
             <div className="services__head">
                 <p className="service__name">OUR SERVICES</p>
                 <p className="services__head">We are development experts on all technologies & platforms.</p>
