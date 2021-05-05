@@ -13,7 +13,7 @@
   text-transform: uppercase;
   color: #635f71;
   border: 2px solid #0e2576;
-  height: 40px;
+  min-height: 40px;
   border-radius: 5px;
   background-color: #ffffff;
 }
