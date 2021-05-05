@@ -1,5 +1,6 @@
 .smart__reach__container {
   padding: 100px 50px 0 50px;
+  position: relative;
 }
 
 .smart__reach {
@@ -93,7 +94,8 @@
 
 .smart__reach__video__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .smart__reach__vids {

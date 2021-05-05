@@ -13,7 +13,7 @@ import './home.css'
 
 export default function home() {
     return (
-        <div>
+        <div id="home">
             <div className="think__innovate__build">
                 <span className="think">Think</span>
                 <span className="innovate">Innovate</span>

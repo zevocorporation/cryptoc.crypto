@@ -1,5 +1,6 @@
 .testimonial__container {
   padding: 50px;
+  position: relative;
 }
 
 .testimonial__text {

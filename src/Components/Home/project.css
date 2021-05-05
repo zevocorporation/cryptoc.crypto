@@ -4,6 +4,7 @@
   border-top: 10px solid #E8F2FC;
   border-bottom: 10px solid #E8F2FC;
   position: relative;
+  overflow-x: hidden;
 }
 
 .container__head__P {
@@ -65,7 +66,7 @@
 }
 
 .project__card__image {
-  max-width: 500px;
+  width: 100%;
   max-height: 300px;
   filter: drop-shadow(0px 3px 18px rgba(89, 126, 255, 0.1));
   border-radius: 10px;

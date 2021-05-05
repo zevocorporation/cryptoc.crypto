@@ -3,7 +3,6 @@
   padding: 86px 66px;
   overflow: hidden;
   position: relative;
-  z-index: 1;
   border-top: 10px solid #E8F2FC;
   border-bottom: 10px solid #E8F2FC;
 }
@@ -17,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -8;
 }
 
 .aboutus__div {
@@ -55,7 +55,6 @@
 }
 
 .about__btn1 {
-  width: 143px;
   height: 40px;
   background: #4078ff;
   border-radius: 5px;
@@ -68,13 +67,13 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  margin: 5px;
 }
 
 .about__btn2 {
   height: 40px;
   background: #0e2576;
   border-radius: 5px;
-  margin-left: 36px;
   font-family: Larsseit;
   font-style: normal;
   font-weight: normal;
@@ -85,7 +84,7 @@
   color: #ffffff;
   border: 2px solid #ffffff;
   cursor: pointer;
-
+  margin: 5px;
 }
 
 .aboutus__blob2{
@@ -109,6 +108,5 @@
   right: 0;
   top: -50px;
   opacity: 0.2;
-  z-index: -1;
 }
 

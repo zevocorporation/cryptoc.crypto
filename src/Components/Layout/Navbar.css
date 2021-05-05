@@ -1,9 +1,17 @@
-.nav__bar {
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px 50px;
+.top__blob {
+  position: absolute;
+  width: 583.11px;
+  height: 643.3px;
+  left: 66.9%;
+  top: -350px;
+  z-index: -1;
+  opacity: 0.2;
+
+}
+
+.navbar{
+  padding: 0 30px;
+  min-height: 80px;;
 }
 
 .brand__logo__img {
@@ -14,25 +22,10 @@
 .nav__links {
   text-decoration: none;
   color: #635f71;
-  margin: 20px;
   top: 0;
   letter-spacing: 0.05em;
   font-weight: 500;
-  /* border-bottom: 3px solid #4078ff; */
-}
-
-.careers__link {
-  margin-right: 50px;
-}
-
-.nav__button {
-  width: 159;
-  height: 40px;
-}
-
-.nav__select {
-  border: none;
-  color: #635f71;
+  margin: 0 20px
 }
 
 .nav__line {
@@ -44,13 +37,7 @@
   border: 0.5px solid rgba(58, 216, 197, 0.5);
 }
 
-.top__blob {
-  position: absolute;
-  width: 583.11px;
-  height: 643.3px;
-  left: 66.9%;
-  top: -350px;
-  z-index: -1;
-  opacity: 0.2;
-
+.nav__button {
+  width: 159;
+  height: 40px;
 }

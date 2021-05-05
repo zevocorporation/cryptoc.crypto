@@ -3,7 +3,7 @@ import './smartReach.css'
 
 function smartReach() {
     return (
-        <div className="container-fluid smart__reach__container">
+        <div className="container-fluid smart__reach__container" id="smartreach">
             <p className="smart__reach">SMART REACH</p>
             <div className="smart__reach__heading__container">
                 <div className="smart__reach__heading">

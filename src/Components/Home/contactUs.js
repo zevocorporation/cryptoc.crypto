@@ -8,12 +8,13 @@ function contactUs() {
                 <p className="contact__heading">CONTACT US</p>
                 <p className="conatact__h">Let’s work together</p>
                 <p className="contact__det">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id integer ut faucibus sem risus. Praesent sagittis, ut diam diam odio faucibus lorem. </p>
-                <div>
+                <div className="contact__en">
                     <span className="constct_details"><img className="contact__img" src="/Icons/Mail.svg" alt="" />contact@cryptocryptosi.com</span>
                     <span className="constct_details"><img className="contact__img" src="/Icons/Phone.svg" alt="" />+22 2231654789</span>
                 </div>
 
                 <div className="form__card">
+                    <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
                             <p className="contact__p">Name</p>
@@ -73,10 +74,11 @@ function contactUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
                     <p className="contact__p">Message</p>
                     <textarea className="contact__text__area">Enter your message</textarea>
+                    <div className="row">
                     <button className="contRact__button">REQUEST QUOTE</button>
+                    </div>
                     </div>
                 </div>
                 <div className="contact__down__color"></div>

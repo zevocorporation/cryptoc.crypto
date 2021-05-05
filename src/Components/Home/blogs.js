@@ -2,7 +2,7 @@ import React from 'react'
 import './blogs.css'
 function blogs() {
     return (
-        <div className="blogs__container container__fluid">
+        <div className="blogs__container container__fluid" id="blogs">
             <div className="blogs__head">
                 <p className="blogs__head1">BLOG & RESOURCES</p>
                 <p className="blogs__head2">Browse our content on Tech and Development</p>
