@@ -44,8 +44,12 @@ function SmartReach() {
         </div>
         <div className="col-lg-6">
           <div className="smart__reach__div">
-            {data?.slice(0, 1)?.map((vid) => {
-              return <p className="smart__reach__head">{vid.title}</p>;
+            {data?.slice(0, 1)?.map((vid, index) => {
+              return (
+                <p className="smart__reach__head" key={index}>
+                  {vid.title}
+                </p>
+              );
             })}
 
             <p className="smart__reach__det">
