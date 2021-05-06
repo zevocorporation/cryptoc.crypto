@@ -56,9 +56,9 @@ function SmartReach() {
             </p>
             <p className="smart__reach__similar__videos">SIMILAR VIDEOS </p>
             <div className="smart__reach__video__container">
-              {data?.slice(1, 4)?.map((vid) => {
+              {data?.slice(1, 4)?.map((vid, index) => {
                 return (
-                  <div className="smart__reach__vids">
+                  <div className="smart__reach__vids" key={index}>
                     <div className="smart__reach__svideo">
                       <ReactPlayer url={vid.link} className="react_player" />
                       {/* <img
