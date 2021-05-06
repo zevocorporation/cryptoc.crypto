@@ -1,12 +1,17 @@
 import axios from "axios";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./smartReach.css";
+import ReactPlayer from "react-player";
 
 function SmartReach() {
+  const [data, setData] = useState();
+
   useEffect(() => {
     axios
-      .get("http://localhost:5000")
-      .then((res) => console.log(res.data))
+      .get("http://localhost:5000/youtube")
+      .then((res) => {
+        setData(res.data);
+      })
       .catch((err) => console.log(err));
   }, []);
 
@@ -29,17 +34,20 @@ function SmartReach() {
       <div className="row smart__reach2">
         <div className="col-lg-6">
           <div className="smart__video__div">
-            <div>
+            {data?.slice(0, 1)?.map((vid) => {
+              return <ReactPlayer url={vid.link} />;
+            })}
+            {/* <div>
               <img src="/Icons/Play.svg" alt="play" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-lg-6">
           <div className="smart__reach__div">
-            <p className="smart__reach__head">
-              Meros isn’t owned by any foundation or corporation, and no party
-              has any special powers.
-            </p>
+            {data?.slice(0, 1)?.map((vid) => {
+              return <p className="smart__reach__head">{vid.title}</p>;
+            })}
+
             <p className="smart__reach__det">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
               lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo
@@ -48,42 +56,21 @@ function SmartReach() {
             </p>
             <p className="smart__reach__similar__videos">SIMILAR VIDEOS </p>
             <div className="smart__reach__video__container">
-              <div className="smart__reach__vids">
-                <div className="smart__reach__svideo">
-                  <img
-                    className="smart__reach__svideo__play"
-                    src="/Icons/Play.svg"
-                    alt="alt"
-                  />
-                </div>
-                <p className="smart__reach__svideo_Det">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-              <div className="smart__reach__vids">
-                <div className="smart__reach__svideo">
-                  <img
-                    className="smart__reach__svideo__play"
-                    src="/Icons/Play.svg"
-                    alt="alt"
-                  />
-                </div>
-                <p className="smart__reach__svideo_Det">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-              <div className="smart__reach__vids">
-                <div className="smart__reach__svideo">
-                  <img
-                    className="smart__reach__svideo__play"
-                    src="/Icons/Play.svg"
-                    alt="alt"
-                  />
-                </div>
-                <p className="smart__reach__svideo_Det">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
+              {data?.slice(1, 4)?.map((vid) => {
+                return (
+                  <div className="smart__reach__vids">
+                    <div className="smart__reach__svideo">
+                      <ReactPlayer url={vid.link} className="react_player" />
+                      {/* <img
+                        className="smart__reach__svideo__play"
+                        src="/Icons/Play.svg"
+                        alt="alt"
+                      /> */}
+                    </div>
+                    <p className="smart__reach__svideo_Det">{vid.title}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

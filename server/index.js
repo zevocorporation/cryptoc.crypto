@@ -6,13 +6,10 @@ const app = express();
 
 app.use(cors());
 
-app.get("/", async (req, res) => {
+app.get("/medium", async (req, res) => {
   const parser = new Parser();
 
-  // Get all the items in the RSS feed
-  const feed = await parser.parseURL(
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCTNtRdBAiZtHP9w7JinzfUg"
-  ); // https://www.reddit.com/.rss
+  const feed = await parser.parseURL("https://medium.com/feed/@meroscrypto");
 
   let items = [];
 
@@ -36,8 +33,38 @@ app.get("/", async (req, res) => {
     })
   );
 
-  // Save the file
-  //   fs.writeFileSync(fileName, JSON.stringify(items));
+  res.json(items);
+});
+
+app.get("/youtube", async (req, res) => {
+  const parser = new Parser();
+
+  const feed = await parser.parseURL(
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCcOzf3f6ZWVlIu-6qQpjudA"
+  );
+
+  let items = [];
+
+  // Clean up the string and replace reserved characters
+  const fileName = `${feed.title
+    .replace(/\s+/g, "-")
+    .replace(/[/\\?%*:|"<>]/g, "")
+    .toLowerCase()}.json`;
+
+  if (fs.existsSync(fileName)) {
+    items = require(`./${fileName}`);
+  }
+
+  // Add the items to the items array
+  await Promise.all(
+    feed.items.map(async (currentItem) => {
+      // Add a new item if it doesn't already exist
+      if (items.filter((item) => isEquivalent(item, currentItem)).length <= 0) {
+        items.push(currentItem);
+      }
+    })
+  );
+
   res.json(items);
 });
 
