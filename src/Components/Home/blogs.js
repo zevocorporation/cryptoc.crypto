@@ -28,9 +28,9 @@ function Blogs() {
         </p>
       </div>
       <div className="row">
-        {data?.slice(0, 3)?.map((value) => {
+        {data?.slice(0, 3)?.map((value, index) => {
           return (
-            <div className="col-md-4">
+            <div className="col-md-4" key={index}>
               <div className="card blog__card">
                 <img
                   src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"

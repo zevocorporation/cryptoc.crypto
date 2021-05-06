@@ -34,8 +34,8 @@ function SmartReach() {
       <div className="row smart__reach2">
         <div className="col-lg-6">
           <div className="smart__video__div">
-            {data?.slice(0, 1)?.map((vid) => {
-              return <ReactPlayer url={vid.link} />;
+            {data?.slice(0, 1)?.map((vid, index) => {
+              return <ReactPlayer key={index} url={vid.link} />;
             })}
             {/* <div>
               <img src="/Icons/Play.svg" alt="play" />
