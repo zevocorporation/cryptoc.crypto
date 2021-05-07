@@ -2,14 +2,28 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./blogs.css";
 function Blogs() {
+  const [dataMedium, setDataMedium] = useState();
   const [data, setData] = useState();
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/medium")
+      .get(
+        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40meroscrypto"
+      )
       .then((res) => {
-        setData(res.data);
-        console.log(res.data);
+        setDataMedium(res.data.items);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fhiverss.com%2F%40cryptosi%2Ffeed"
+      )
+      .then((res) => {
+        setData(res.data.items);
+        console.log(res.data.items[0].content);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -24,16 +38,16 @@ function Blogs() {
         <p className="blogs__head3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id integer ut
           faucibus sem risus. Praesent sagittis, ut diam diam odio faucibus
-          lorem.{" "}
+          lorem.
         </p>
       </div>
       <div className="row">
-        {data?.slice(0, 3)?.map((value, index) => {
+        {dataMedium?.slice(0, 1)?.map((value, index) => {
           return (
             <div className="col-md-4" key={index}>
               <div className="card blog__card">
                 <img
-                  src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  src={value.thumbnail}
                   className="card-img-top img-fluid"
                   alt="..."
                 />
@@ -41,17 +55,44 @@ function Blogs() {
                   <div className="blog__card__profile">
                     <img
                       className="blog__card__pimage"
-                      src="https://images.unsplash.com/photo-1619944798826-ac0e092f0cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      src={value.thumbnail}
                       alt="img"
                     />
                     <span className="blog__card__pname">{value.creator}</span>
                   </div>
                   <p className="blog__card__head">{value.title}</p>
-                  <p className="blog__card__det">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Faucibus ante velit nunc morbi pretium. Ut nullam dolor,
-                    pulvinar proin viverra ullamcorper.
-                  </p>
+                  <p
+                    className="blog__card__det"
+                    dangerouslySetInnerHTML={{ __html: value.content }}
+                  ></p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+        {data?.slice(0, 2)?.map((value, index) => {
+          return (
+            <div className="col-md-4" key={index}>
+              <div className="card blog__card">
+                <img
+                  src={value.thumbnail}
+                  className="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <div className="blog__card__profile">
+                    <img
+                      className="blog__card__pimage"
+                      src={value.thumbnail}
+                      alt="img"
+                    />
+                    <span className="blog__card__pname">{value.creator}</span>
+                  </div>
+                  <p className="blog__card__head">{value.title}</p>
+                  <p
+                    className="blog__card__det"
+                    dangerouslySetInnerHTML={{ __html: value.content }}
+                  ></p>
                 </div>
               </div>
             </div>

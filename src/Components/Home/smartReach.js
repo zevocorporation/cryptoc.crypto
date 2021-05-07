@@ -8,9 +8,11 @@ function SmartReach() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/youtube")
+      .get(
+        " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCcOzf3f6ZWVlIu-6qQpjudA"
+      )
       .then((res) => {
-        setData(res.data);
+        setData(res.data.items);
       })
       .catch((err) => console.log(err));
   }, []);

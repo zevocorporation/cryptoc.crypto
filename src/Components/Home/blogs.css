@@ -72,6 +72,19 @@
   color: #635f71;
 }
 
+.blog__card__det img {
+  display: none;
+}
+
+.blog__card__det p:nth-child(even),
+.blog__card__det p:nth-child(odd) {
+  display: none;
+}
+
+.blog__card__det p:nth-child(2) {
+  display: block;
+}
+
 .blog__card__pimage {
   height: 32px;
   width: 32px;
