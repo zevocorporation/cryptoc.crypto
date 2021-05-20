@@ -3,13 +3,11 @@
   padding: 86px 66px;
   overflow: hidden;
   position: relative;
-  border-top: 10px solid #E8F2FC;
-  border-bottom: 10px solid #E8F2FC;
+  border-top: 10px solid #e8f2fc;
+  border-bottom: 10px solid #e8f2fc;
 }
 
 .video__div {
-  padding: 20px 50px;
-  background-color: black;
   width: 100%;
   min-height: 200px;
   height: 100%;
@@ -19,6 +17,12 @@
   justify-content: center;
   align-items: center;
   z-index: -8;
+}
+
+.aboutus_video {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
 }
 
 .aboutus__div {
@@ -89,15 +93,14 @@
   margin: 5px;
 }
 
-.aboutus__blob2{
+.aboutus__blob2 {
   position: absolute;
   right: -150px;
   bottom: -150px;
   opacity: 0.2;
 }
 
-
-.aboutus__dot__vector1{
+.aboutus__dot__vector1 {
   position: absolute;
   left: 490px;
   bottom: 50px;
@@ -105,10 +108,9 @@
   z-index: -1;
 }
 
-.aboutus__dot__vector2{
+.aboutus__dot__vector2 {
   position: absolute;
   right: 0;
   top: -50px;
   opacity: 0.2;
 }
-
