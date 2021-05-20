@@ -12,7 +12,7 @@ function aboutUs() {
               <div className="col-lg-6">
                 <div className="video__div">
                   <ReactPlayer
-                    url="https://www.youtube.com/watch?v=8yFeyWAP590"
+                    url="https://www.youtube.com/watch?v=JjWqofZp4lk&t=1s"
                     className="aboutus_video"
                   />
                 </div>
