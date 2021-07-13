@@ -26,10 +26,11 @@ export default function home() {
         </h1>
         <div className="main__subtext__container">
           <span className="main__subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
-            lorem ultrices faucibus odio dictum mi nibh sed. Eget commodo
-            porttitor sit donec enim blandit. Risus enim at amet risus,
-            fringilla massa, consectetur nec ultricies egestas nibh convallis.
+            Crypto S.I is a world renowned software development company
+            specialising in crypto-currency. We haves decades worth of
+            experience in Crypto currency, both inside the code and outside in
+            the communities. Crypto S.I has been in the Bitcoin space since
+            2012.
           </span>
         </div>
         <img

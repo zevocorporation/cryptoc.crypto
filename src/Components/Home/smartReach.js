@@ -22,15 +22,20 @@ function SmartReach() {
       <p className="smart__reach">SMART REACH</p>
       <div className="smart__reach__heading__container">
         <div className="smart__reach__heading">
-          Discover the daily informative videos that we post
+          Discover the regular informative videos that we post
         </div>
         <div className="smart__reach__buttons">
-          <button className="btn smart__reach__youtube">
+          <a
+            href="https://www.youtube.com/channel/UCcOzf3f6ZWVlIu-6qQpjudA"
+            target="_blank"
+            rel="reopener noreferrer"
+            className="btn smart__reach__youtube"
+          >
             VISIT YOUTUBE <img src="/Icons/youtube-1.svg" alt="youtube" />
-          </button>
-          <button className="btn smart__reach__arrow">
+          </a>
+          {/* <button className="btn smart__reach__arrow">
             VIEW MORE <img src="/Icons/arrow-right.svg" alt="youtube" />
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="row smart__reach2">
@@ -60,7 +65,6 @@ function SmartReach() {
               porttitor sit donec enim blandit. Risus enim at amet risus,
               fringilla massa, consectetur nec ultricies egestas nibh convallis.
             </p>
-            <p className="smart__reach__similar__videos">SIMILAR VIDEOS </p>
             <div className="smart__reach__video__container">
               {data?.slice(1, 4)?.map((vid, index) => {
                 return (

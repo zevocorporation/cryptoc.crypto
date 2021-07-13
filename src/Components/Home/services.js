@@ -44,7 +44,7 @@ function services() {
       <div className="services__head">
         <p className="service__name">OUR SERVICES</p>
         <p className="services__head">
-          We are development experts on all technologies & platforms.
+          We are development experts on many technologies & platforms.
         </p>
       </div>
       <div className="slider__services">

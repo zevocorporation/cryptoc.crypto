@@ -1,5 +1,8 @@
 import React from "react";
 import "./project.css";
+import meros from "../../assets/meros.png";
+import pivx from "../../assets/pivx.png";
+import whirlwind from "../../assets/whirlwind.png";
 
 function projectProcess() {
   return (
@@ -50,18 +53,14 @@ function projectProcess() {
           <div className="project__card_container">
             <div className="row">
               <div className="col-lg-5">
-                <img
-                  className="project__card__image"
-                  src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png"
-                  alt="/"
-                />
+                <img className="project__card__image" src={meros} alt="/" />
               </div>
               <div className="col-lg-7 project__card__det">
                 <div>
                   <p className="project__card__text">MEROS</p>
                   <p className="project__card__head">
-                    How we devloped the worlds first Decentralized VPN app which
-                    available for the general users.
+                    We have been supporting Meros as an advisor during its
+                    initial development phase
                   </p>
                   <p className="project__card__p">
                     Meros is a truly remarkable labour of love and we have been
@@ -77,18 +76,13 @@ function projectProcess() {
           <div className="project__card_container">
             <div className="row">
               <div className="col-lg-5">
-                <img
-                  className="project__card__image"
-                  src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png"
-                  alt="/"
-                />
+                <img className="project__card__image" src={pivx} alt="/" />
               </div>
               <div className="col-lg-7 project__card__det">
                 <div>
                   <p className="project__card__text">PIVX</p>
                   <p className="project__card__head">
-                    How we devloped the worlds first Decentralized VPN app which
-                    available for the general users.
+                    We spent years as an integral part of the PIVX team
                   </p>
                   <p className="project__card__p">
                     Between 2016 and late 2020 CryptoSI was an integral member
@@ -105,18 +99,13 @@ function projectProcess() {
           <div className="project__card_container">
             <div className="row">
               <div className="col-lg-5">
-                <img
-                  className="project__card__image"
-                  src="https://miro.medium.com/max/4000/1*X6dbq0CqifEShFyBumuEVA.png"
-                  alt="/"
-                />
+                <img className="project__card__image" src={whirlwind} alt="/" />
               </div>
               <div className="col-lg-7 project__card__det">
                 <div>
                   <p className="project__card__text"> WHIRLWING CASH</p>
                   <p className="project__card__head">
-                    How we devloped the worlds first Decentralized VPN app which
-                    available for the general users.
+                    We were an initial advisor to whirlwind Cash
                   </p>
                   <p className="project__card__p">
                     A new and exciting project based on the popular tornado

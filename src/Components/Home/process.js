@@ -11,9 +11,9 @@ function process() {
             We have a simple, yet robust and effective process
           </p>
           <p className="process__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id integer
-            ut faucibus sem risus. Praesent sagittis, ut diam diam odio faucibus
-            lorem.
+            CryptoSI do not bog you down with jargon, yet we are a highly
+            technical team capable of communicating complex situations in
+            understanable language
           </p>
         </div>
         <div className="row process__card__container">
