@@ -77,7 +77,10 @@
 }
 
 .blog__card__det p:nth-child(even),
-.blog__card__det p:nth-child(odd) {
+.blog__card__det p:nth-child(odd),
+.blog__card__det div,
+.blog__card__det figure,
+.blog__card__det h4 {
   display: none;
 }
 

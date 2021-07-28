@@ -1,6 +1,13 @@
 import React from "react";
 import "./process.css";
 
+//IMPORTING MEDIA ASSETS
+
+import ideaScoping from "../../assets/Icons/Idea Scoping.svg";
+import roadmap from "../../assets/Icons/Roadmap planning.svg";
+import development from "../../assets/Icons/Development _ Execution.svg";
+import launch from "../../assets/Icons/Launch _ Maintenance.svg";
+
 function process() {
   return (
     <div>
@@ -22,7 +29,7 @@ function process() {
               <div className="col-md-2">
                 <img
                   className="process__card__image"
-                  src="/Icons/Idea Scoping.svg"
+                  src={ideaScoping}
                   alt="card-img"
                 />
               </div>
@@ -42,7 +49,7 @@ function process() {
               <div className="col-md-2">
                 <img
                   className="process__card__image"
-                  src="/Icons/Roadmap planning.svg"
+                  src={roadmap}
                   alt="card-img"
                 />
               </div>
@@ -62,7 +69,7 @@ function process() {
               <div className="col-md-2">
                 <img
                   className="process__card__image"
-                  src="/Icons/Development _ Execution.svg"
+                  src={development}
                   alt="card-img"
                 />
               </div>
@@ -83,7 +90,7 @@ function process() {
               <div className="col-md-2">
                 <img
                   className="process__card__image"
-                  src="/Icons/Launch _ Maintenance.svg"
+                  src={launch}
                   alt="card-img"
                 />
               </div>

@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
+import leftQuotes from "../../assets/Icons/left-quotes-sign (2) 1.svg";
+
 function testimonals() {
   let settings = {
     dots: true,
@@ -50,11 +52,7 @@ function testimonals() {
       <div className="testimonial__slides">
         <Slider {...settings}>
           <div className="testimonial__card">
-            <img
-              className="slide__quotes"
-              src="/Icons/left-quotes-sign (2) 1.svg"
-              alt="quotes"
-            />
+            <img className="slide__quotes" src={leftQuotes} alt="quotes" />
             <p className="testimonial__card__head">
               The best decentralized service provider in web
             </p>
@@ -86,11 +84,7 @@ function testimonals() {
             </div>
           </div>
           <div className="testimonial__card">
-            <img
-              className="slide__quotes"
-              src="/Icons/left-quotes-sign (2) 1.svg"
-              alt="quotes"
-            />
+            <img className="slide__quotes" src={leftQuotes} alt="quotes" />
             <p className="testimonial__card__head">
               The best decentralized service provider in web
             </p>
@@ -128,7 +122,7 @@ function testimonals() {
           {/* <div className="testimonial__card">
             <img
               className="slide__quotes"
-              src="/Icons/left-quotes-sign (2) 1.svg"
+              src={leftQuotes}
               alt="quotes"
             />
             <p className="testimonial__card__head">
@@ -165,7 +159,7 @@ function testimonals() {
           <div className="testimonial__card">
             <img
               className="slide__quotes"
-              src="/Icons/left-quotes-sign (2) 1.svg"
+              src={leftQuotes}
               alt="quotes"
             />
             <p className="testimonial__card__head">
@@ -202,7 +196,7 @@ function testimonals() {
           <div className="testimonial__card">
             <img
               className="slide__quotes"
-              src="/Icons/left-quotes-sign (2) 1.svg"
+              src={leftQuotes}
               alt="quotes"
             />
             <p className="testimonial__card__head">

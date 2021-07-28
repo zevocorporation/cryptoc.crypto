@@ -5,6 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
+//IMPORTING MEDIA ASSETS
+
+import applicationDevelopment from "../../assets/Icons/Application Development.svg";
+import botDevelopment from "../../assets/Icons/Bot Development.svg";
+import frontEnd from "../../assets/Icons/Front End.svg";
+import backEnd from "../../assets/Icons/Back end.svg";
+
 function services() {
   let settings = {
     dots: false,
@@ -50,11 +57,7 @@ function services() {
       <div className="slider__services">
         <Slider {...settings}>
           <div className="service__slide__card">
-            <img
-              className="service__slide__img"
-              src="/Icons/Front End.svg"
-              alt="dev"
-            />
+            <img className="service__slide__img" src={frontEnd} alt="dev" />
             <p className="service__slide__head">Front-End Development</p>
             <p className="service__slide__text">
               Through our extensive network of freelancers we can always find
@@ -64,11 +67,7 @@ function services() {
             </p>
           </div>
           <div className="service__slide__card">
-            <img
-              className="service__slide__img"
-              src="/Icons/Back end.svg"
-              alt="dev"
-            />
+            <img className="service__slide__img" src={backEnd} alt="dev" />
             <p className="service__slide__head">Back-End Development</p>
             <p className="service__slide__text">
               Our developers are experienced in Solidity, C++ and Python and
@@ -81,7 +80,7 @@ function services() {
           <div className="service__slide__card">
             <img
               className="service__slide__img"
-              src="/Icons/Bot Development.svg"
+              src={botDevelopment}
               alt="dev"
             />
             <p className="service__slide__head">Podcasts and Tutorials </p>
@@ -95,7 +94,7 @@ function services() {
           <div className="service__slide__card">
             <img
               className="service__slide__img"
-              src="/Icons/Application Development.svg"
+              src={applicationDevelopment}
               alt="dev"
             />
             <p className="service__slide__head"> Advisory Services</p>

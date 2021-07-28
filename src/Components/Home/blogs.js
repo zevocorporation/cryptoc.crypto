@@ -8,10 +8,10 @@ function Blogs() {
   useEffect(() => {
     axios
       .get(
-        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40meroscrypto"
+        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fhiverss.com%2F%40cryptosi%2Ffeed"
       )
       .then((res) => {
-        setDataMedium(res.data.items);
+        setData(res.data.items);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -19,11 +19,12 @@ function Blogs() {
   useEffect(() => {
     axios
       .get(
-        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fhiverss.com%2F%40cryptosi%2Ffeed"
+        " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40cryptosixxx"
       )
       .then((res) => {
-        setData(res.data.items);
-        console.log(res.data.items[0].content);
+        const { data } = res;
+        console.log(data.items);
+        setDataMedium(data.items);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -58,7 +59,7 @@ function Blogs() {
                       src={value.thumbnail}
                       alt="img"
                     />
-                    <span className="blog__card__pname">{value.creator}</span>
+                    <span className="blog__card__pname">{value.author}</span>
                   </div>
                   <p className="blog__card__head">{value.title}</p>
                   <p

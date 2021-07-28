@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./smartReach.css";
 import ReactPlayer from "react-player";
+import youtube from "../../assets/Icons/youtube-1.svg";
 
 function SmartReach() {
   const [data, setData] = useState();
@@ -31,7 +32,7 @@ function SmartReach() {
             rel="reopener noreferrer"
             className="btn smart__reach__youtube"
           >
-            VISIT YOUTUBE <img src="/Icons/youtube-1.svg" alt="youtube" />
+            VISIT YOUTUBE <img src={youtube} alt="youtube" />
           </a>
           {/* <button className="btn smart__reach__arrow">
             VIEW MORE <img src="/Icons/arrow-right.svg" alt="youtube" />
