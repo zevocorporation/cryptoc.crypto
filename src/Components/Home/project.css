@@ -1,8 +1,8 @@
 .projects__conatiner {
   background-color: #0e2576;
   padding: 50px;
-  border-top: 10px solid #E8F2FC;
-  border-bottom: 10px solid #E8F2FC;
+  border-top: 10px solid #e8f2fc;
+  border-bottom: 10px solid #e8f2fc;
   position: relative;
   overflow-x: hidden;
 }
@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .project__header__text {
@@ -66,11 +66,16 @@
   margin-bottom: 30px;
 }
 
+.col-lg-5 {
+  height: 300px;
+}
+
 .project__card__image {
   width: 100%;
-  max-height: auto;
+  height: 100%;
   filter: drop-shadow(0px 3px 18px rgba(89, 126, 255, 0.1));
   border-radius: 10px;
+  object-fit: contain;
 }
 
 .project__card__text {
@@ -103,28 +108,28 @@
   color: #635f71;
 }
 
-.project__card__det{
-    display: flex;
-    align-items: center;
+.project__card__det {
+  display: flex;
+  align-items: center;
 }
 
-.projects__blob2{
- position: absolute;
- opacity: 0.2;
- bottom: 500px;
- right: -200px;
+.projects__blob2 {
+  position: absolute;
+  opacity: 0.2;
+  bottom: 500px;
+  right: -200px;
 }
 
-.projects__dot__vector1{
- position: absolute;
- opacity: 0.2;
- top: 150px;
- right: 0;
+.projects__dot__vector1 {
+  position: absolute;
+  opacity: 0.2;
+  top: 150px;
+  right: 0;
 }
 
-.projects__dot__vector2{
- position: absolute;
- opacity: 0.2;
- left: -50px;
- bottom: 400px;
+.projects__dot__vector2 {
+  position: absolute;
+  opacity: 0.2;
+  left: -50px;
+  bottom: 400px;
 }

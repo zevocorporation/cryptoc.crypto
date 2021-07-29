@@ -23,11 +23,12 @@ function Blogs() {
       )
       .then((res) => {
         const { data } = res;
-        console.log(data.items);
         setDataMedium(data.items);
       })
       .catch((err) => console.log(err));
   }, []);
+
+  console.log(data);
 
   return (
     <div className="blogs__container container__fluid" id="blogs">
@@ -47,11 +48,13 @@ function Blogs() {
           return (
             <div className="col-md-4" key={index}>
               <div className="card blog__card">
-                <img
-                  src={value.thumbnail}
-                  className="card-img-top img-fluid"
-                  alt="..."
-                />
+                <div className="blog_img_fluid">
+                  <img
+                    src={value.thumbnail}
+                    className="card-img-top img-fluid"
+                    alt="..."
+                  />
+                </div>
                 <div className="card-body">
                   <div className="blog__card__profile">
                     <img
@@ -67,6 +70,15 @@ function Blogs() {
                     dangerouslySetInnerHTML={{ __html: value.content }}
                   ></p>
                 </div>
+                <p className="blog_link">
+                  <a
+                    href="https://medium.com/@cryptosixxx"
+                    target="_blank"
+                    rel="noreferrer reopener"
+                  >
+                    Read more
+                  </a>
+                </p>
               </div>
             </div>
           );
@@ -75,11 +87,13 @@ function Blogs() {
           return (
             <div className="col-md-4" key={index}>
               <div className="card blog__card">
-                <img
-                  src={value.thumbnail}
-                  className="card-img-top img-fluid"
-                  alt="..."
-                />
+                <div className="blog_img_fluid">
+                  <img
+                    src={value.thumbnail}
+                    className="card-img-top img-fluid"
+                    alt="..."
+                  />
+                </div>
                 <div className="card-body">
                   <div className="blog__card__profile">
                     <img
@@ -95,6 +109,15 @@ function Blogs() {
                     dangerouslySetInnerHTML={{ __html: value.content }}
                   ></p>
                 </div>
+                <p className="blog_link">
+                  <a
+                    href="https://medium.com/@cryptosixxx"
+                    target="_blank"
+                    rel="noreferrer reopener"
+                  >
+                    Read more
+                  </a>
+                </p>
               </div>
             </div>
           );

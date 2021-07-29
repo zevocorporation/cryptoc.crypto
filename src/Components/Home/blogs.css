@@ -62,6 +62,15 @@
   color: #130d2a;
 }
 
+.blog_img_fluid {
+  height: 200px;
+}
+
+.blog_img_fluid img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .blog__card__det {
   font-family: Larsseit;
   font-style: normal;
@@ -86,6 +95,11 @@
 
 .blog__card__det p:nth-child(2) {
   display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .blog__card__pimage {
@@ -124,4 +138,8 @@
   background-color: #ffffff;
   display: block;
   margin: 40px auto;
+}
+
+.blog_link {
+  text-align: end;
 }
