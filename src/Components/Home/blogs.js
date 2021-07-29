@@ -123,7 +123,16 @@ function Blogs() {
           );
         })}
       </div>
-      <button className="blog__button">View all blog posts</button>
+      <button className="blog__button">
+        <a
+          href="https://medium.com/@cryptosixxx"
+          target="_blank"
+          rel="noreferrer reopener"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          View all blog posts
+        </a>
+      </button>
     </div>
   );
 }
