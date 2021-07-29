@@ -46,7 +46,7 @@
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.1em;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .footer__2 {
@@ -92,6 +92,14 @@
   text-align: right;
 }
 
+.footer__3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-row-gap: 1em;
+  flex-wrap: wrap;
+}
+
 .footer__3 img {
   margin-left: 23px;
 }
@@ -111,7 +119,7 @@
   color: #ffffff;
 }
 
-.footer__rights{
+.footer__rights {
   text-align: right;
   font-family: Larsseit;
   font-style: normal;
@@ -119,12 +127,18 @@
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.1em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.footer__blob{
+.footer__blob {
   position: absolute;
   top: 25%;
   left: -20%;
   opacity: 0.2;
+}
+
+@media (max-width: 576px) {
+  .footer__3 > div {
+    flex-wrap: nowrap;
+  }
 }
